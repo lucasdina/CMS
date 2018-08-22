@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'This site is down for maintenance.<br />Please check back again soon.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'corba';
+	public $sitename = 'CORBA - Collectors of Really Bad Art';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -44,8 +44,8 @@ class JConfig {
 	public $cache_handler = 'file';
 	public $cachetime = '15';
 	public $cache_platformprefix = '0';
-	public $MetaDesc = '';
-	public $MetaKeys = '';
+	public $MetaDesc = 'CORBA is an international club of collectors of really bad art.';
+	public $MetaKeys = 'bar art, ugly paintings, bad painting, CORBA';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
 	public $MetaVersion = '0';
@@ -83,7 +83,7 @@ class JConfig {
 	public $replyto = '';
 	public $replytoname = '';
 	public $MetaRights = '';
-	public $sitename_pagetitles = '0';
+	public $sitename_pagetitles = '2';
 	public $force_ssl = '0';
 	public $session_memcache_server_host = 'localhost';
 	public $session_memcache_server_port = '11211';

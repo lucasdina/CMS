@@ -1,3 +1,9 @@
+.site-description {
+  color: silver;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 104px;
+}
 article,
 aside,
 details,
