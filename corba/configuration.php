@@ -79,7 +79,7 @@ class JConfig {
 	public $proxy_port = '';
 	public $proxy_user = '';
 	public $proxy_pass = '';
-	public $massmailoff = '0';
+	public $massmailoff = '1';
 	public $replyto = '';
 	public $replytoname = '';
 	public $MetaRights = '';
