@@ -36,7 +36,7 @@ class JConfig {
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '1';
 	public $smtpuser = 'webd250@gmail.com';
-	public $smtppass = 'Pa$$w0rd';
+	public $smtppass = 'webd250webd250';
 	public $smtphost = 'smtp.gmail.com';
 	public $smtpsecure = 'ssl';
 	public $smtpport = '465';
