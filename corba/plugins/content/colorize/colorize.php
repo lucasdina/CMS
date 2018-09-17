@@ -1,20 +1,15 @@
 <?php
-defined( '_JEXEC' ) or die;
-jimport( 'joomla.plugin.plugin' );
+defined( '_JEXEC' ) or die( 'Restricted access' );
+
 class plgColorize extends JPlugin
 {
-	protected $autoloadLanguage = true;
-
-    function plgColorize ( &$subject, $params )
+    function onContentBeforeDisplay($context, &$article, &$params, $limitstart)
 	{
-		parent::__construct( $subject, $params );
+        //add your plugin codes here
+        echo 'poop';
+		return $article;
+		//return a string value. Returned value from this event will be displayed in a placeholder. 
+                // Most templates display this placeholder after the article separator. 
 	}
-
-    public function onContentPrepare($context, &$row, &$params, $page = 0)
-	{
-        echo "<script>alert('cool');</script>";
-        echo "poop";
-        return true;
-    }
 }
 ?>

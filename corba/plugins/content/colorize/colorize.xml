@@ -10,4 +10,5 @@
     <files>
         <filename plugin="colorize">colorize.php</filename>
     </files>
+    <config></config>
 </extension>
