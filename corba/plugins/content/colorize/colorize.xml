@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content">
+    <name>colorize</name>
+    <creationDate>September 16th 2018</creationDate>
+    <author>Lucas</author>
+    <authorEmail>lukeadina@gmail.com</authorEmail>
+    <authorUrl>gunnr.us</authorUrl>
+    <version>0.2</version>
+    <description>Makes the words 'a', 'an', and 'the' appear in red.</description>
+    <files>
+        <filename plugin="colorize">colorize.php</filename>
+    </files>
+</extension>
