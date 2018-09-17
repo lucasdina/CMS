@@ -4,7 +4,8 @@ defined( '_JEXEC' ) or die;
 class plgContentColorize extends JPlugin
 {
 	public function onContentPrepare($context, $article, $params, $limitstart) {
-        $article->text = str_replace(' a ', '<font color="red">poop</font>', $article->text);
+        $regexA = array("/(?:^|\W)a(?:$|\W)/", "/(?:^|\W)an(?:$|\W)/", "/(?:^|\W)the(?:$|\W)/");
+        $article->text = preg_replace($regexA, '<font color="red">$0</font>', $article->text);
         return true;
     }
 }
