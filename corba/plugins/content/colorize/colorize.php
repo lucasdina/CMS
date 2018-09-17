@@ -1,15 +1,11 @@
 <?php
-defined( '_JEXEC' ) or die( 'Restricted access' );
+defined( '_JEXEC' ) or die;
 
-class plgColorize extends JPlugin
+class plgContentColorize extends JPlugin
 {
-    function onContentBeforeDisplay($context, &$article, &$params, $limitstart)
-	{
-        //add your plugin codes here
-        echo 'poop';
-		return $article;
-		//return a string value. Returned value from this event will be displayed in a placeholder. 
-                // Most templates display this placeholder after the article separator. 
-	}
+	public function onContentPrepare($context, $article, $params, $limitstart) {
+        $article->text = str_replace(' a ', '<font color="red">poop</font>', $article->text);
+        return true;
+    }
 }
 ?>
