@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+    <name>Content - Colorize</name>
+    <author>Lucas Dina</author>
+    <files>
+        <filename plugin="colorize">colorize.php</filename>
+    </files>
+</extension>

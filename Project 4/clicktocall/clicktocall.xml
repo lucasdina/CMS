@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" method="upgrade">
+    <name>Content - Click To Call</name>
+    <author>Lucas Dina</author>
+    <files>
+        <filename plugin="clicktocall">clicktocall.php</filename>
+    </files>
+</extension>
